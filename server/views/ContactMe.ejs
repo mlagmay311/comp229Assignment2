@@ -1,10 +1,8 @@
 <%- include partials/header.ejs %> <%- include partials/main_nav.ejs %>
 <div id="wrap">
 <div class="container">
-  <br />
   <div class="jumbotron">
-<font color="#263238">
-<h3>Welcome to the <%= title %></h3>
+<h1>Welcome to the <%= title %></h1>
     <form action="/ContactMe" method="post" class="form-horizontal" role="form" style="width: 80%;">
       <div class="form-group">
         <label for="name" class="col-sm-2 control-label">First Name</label>
@@ -49,8 +47,8 @@
       </div>
 
     </form>
-</font>
+
   </div>
 </div>
 </div>
-<% include partials/footer.ejs %>
+<%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>
